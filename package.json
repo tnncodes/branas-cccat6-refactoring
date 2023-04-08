@@ -1,0 +1,19 @@
+{
+  "name": "branas-cccat6-refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-labs:tnncodes/branas-cccat6-refactoring.git",
+  "author": "tnncodes <tnncodes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "main": "tsc && node ./dist/main",
+    "test": "tsc && jest ./dist/test"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
