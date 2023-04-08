@@ -1,4 +1,4 @@
-import { calc } from "../../src/example1/before/calc";
+import { calc } from "../../../src/example1/before/calc";
 
 test("Deve calcular o valor da corrida em horário normal", function () {
 	const fare = calc([ { dist: 10, ds: new Date("2021-03-01T10:00:00") } ]);
